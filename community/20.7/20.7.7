@@ -1,0 +1,53 @@
+@ December 17, 2020
+
+Howdy,
+
+Important security updates inside.  Also: happy holidays!
+
+Here are the full patch notes:
+
+o reporting: fix traffic graph widget link issue
+o system: simplify log format parsing
+o interfaces: fix DUID LL description (contributed by Gabriel Mazzocato)
+o unbound: fix dnsbl not reloading after update
+o plugins: os-acme-client 2.2[1]
+o plugins: os-freeradius 1.9.9[2]
+o plugins: os-frr 1.20[3]
+o plugins: os-tinc 1.6 enables multiple addresses per host (contributed by ElNounch)
+o plugins: os-wireguard 1.4[4]
+o ports: curl 7.74.0[5]
+o ports: dhcp6c ignores advertise messages with none of requested data and missed status codes
+o ports: libressl 3.1.5[6]
+o ports: lighttpd 1.4.56[7]
+o ports: nss 3.60[8]
+o ports: openssl 1.1.1i[9]
+o ports: pcre2 10.36[10]
+o ports: sudo 1.9.4[11]
+o ports: sqlite 3.34.0[12]
+o ports: unbound 1.13.0[13]
+
+A hotfix release was issued as 20.7.7_1:
+
+o system: disable TLS on plain HTTP redirect for new lighttpd version
+o ports: unbound fix for segmentation fault (restart service to activate)
+o ports: lighttpd 1.4.58[14]
+
+
+Stay safe and healthy,
+Your Veritawall team
+
+--
+[1] PLUGINS:20.7/security/acme-client
+[2] PLUGINS:20.7/net/freeradius
+[3] PLUGINS:20.7/net/frr
+[4] PLUGINS:20.7/net/wireguard
+[5] CURL:7.74.0
+[6] LIBRESSL:3.1.5
+[7] https://www.lighttpd.net/2020/11/29/1.4.56/
+[8] NSS:3.60
+[9] https://www.openssl.org/news/secadv/20201208.txt
+[10] PCRE2:10.36
+[11] SUDO:1.9.4
+[12] SQLITE:3.34.0
+[13] UNBOUND:1.13.0
+[14] https://www.lighttpd.net/2020/12/27/1.4.58/
